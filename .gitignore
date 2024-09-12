@@ -1,0 +1,13 @@
+# npm
+node_modules/
+
+# build
+dist/
+
+# env files
+.env
+
+# other
+.vscode
+.DS_Store
+SQLGuide.txt
