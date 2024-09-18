@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    container_name: app-services
+    image: app-services
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    ports:
+      - "3000:3000"
